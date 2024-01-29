@@ -38,3 +38,9 @@ exports.FileDelete =(req, res)=>{
         }
     }); 
 }
+
+exports.FileDownload =(req, res)=>{
+
+    res.download(path.resolve(__dirname,'..','upload'+'/'+req.query.file));
+
+}
