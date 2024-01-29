@@ -2,6 +2,9 @@
 
 This is a simple Node.js application for uploading, listing, and managing images. The app uses Express for the server, Multer for handling file uploads, and Bootstrap for the frontend.
 
+![Alt Text](screenshot.png)
+
+
 ## Features
 
 - Upload images with a user-friendly interface.
